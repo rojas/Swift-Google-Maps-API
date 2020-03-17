@@ -402,7 +402,7 @@
 				02DDFECA1C6ECE16008413ED /* ObjectMapper.framework */,
 				02DDFECC1C6ECE16008413ED /* ObjectMapper.framework */,
 				02DDFECE1C6ECE16008413ED /* ObjectMapper-iOSTests.xctest */,
-				02DDFED01C6ECE16008413ED /* ObjectMapper-MacTests.xctest */,
+				02DDFED01C6ECE16008413ED /* ObjectMapper-macOSTests.xctest */,
 				02DDFED21C6ECE16008413ED /* ObjectMapper-tvOSTests.xctest */,
 				022A250F217931570019BEE8 /* libObjectMapper.a */,
 			);
@@ -645,6 +645,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 02DDFE7F1C6ECDE7008413ED;
@@ -765,10 +766,10 @@
 			remoteRef = 02DDFECD1C6ECE16008413ED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		02DDFED01C6ECE16008413ED /* ObjectMapper-MacTests.xctest */ = {
+		02DDFED01C6ECE16008413ED /* ObjectMapper-macOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "ObjectMapper-MacTests.xctest";
+			path = "ObjectMapper-macOSTests.xctest";
 			remoteRef = 02DDFECF1C6ECE16008413ED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1002,7 +1003,7 @@
 				PRODUCT_NAME = GooglePlaces;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -1024,7 +1025,7 @@
 				PRODUCT_NAME = GooglePlaces;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -1050,7 +1051,7 @@
 				PRODUCT_NAME = GooglePlaces;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1074,7 +1075,7 @@
 				PRODUCT_NAME = GooglePlaces;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1090,7 +1091,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GooglePlaces-OSXTests";
 				PRODUCT_NAME = GooglePlacesTests;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1106,7 +1107,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GooglePlaces-OSXTests";
 				PRODUCT_NAME = GooglePlacesTests;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1234,13 +1235,13 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GooglePlaces/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GooglePlaces-iOS";
 				PRODUCT_NAME = GooglePlaces;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1256,12 +1257,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GooglePlaces/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GooglePlaces-iOS";
 				PRODUCT_NAME = GooglePlaces;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1272,7 +1273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GooglePlaces-iOSTests";
 				PRODUCT_NAME = GooglePlacesTests;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1283,7 +1284,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GooglePlaces-iOSTests";
 				PRODUCT_NAME = GooglePlacesTests;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1303,7 +1304,7 @@
 				PRODUCT_NAME = GooglePlaces;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1325,7 +1326,7 @@
 				PRODUCT_NAME = GooglePlaces;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1339,7 +1340,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GooglePlaces-tvOSTests";
 				PRODUCT_NAME = GooglePlacesTests;
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
@@ -1352,7 +1353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GooglePlaces-tvOSTests";
 				PRODUCT_NAME = GooglePlacesTests;
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;

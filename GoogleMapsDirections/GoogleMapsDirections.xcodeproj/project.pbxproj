@@ -403,7 +403,7 @@
 				02DDFE6C1C6ECAE5008413ED /* ObjectMapper.framework */,
 				02DDFE6E1C6ECAE5008413ED /* ObjectMapper.framework */,
 				02DDFE701C6ECAE5008413ED /* ObjectMapper-iOSTests.xctest */,
-				02DDFE721C6ECAE5008413ED /* ObjectMapper-MacTests.xctest */,
+				02DDFE721C6ECAE5008413ED /* ObjectMapper-macOSTests.xctest */,
 				02DDFE741C6ECAE5008413ED /* ObjectMapper-tvOSTests.xctest */,
 				022A25312179323F0019BEE8 /* libObjectMapper.a */,
 			);
@@ -634,6 +634,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 027038AA1C6E648C0057C4EE;
@@ -754,10 +755,10 @@
 			remoteRef = 02DDFE6F1C6ECAE5008413ED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		02DDFE721C6ECAE5008413ED /* ObjectMapper-MacTests.xctest */ = {
+		02DDFE721C6ECAE5008413ED /* ObjectMapper-macOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "ObjectMapper-MacTests.xctest";
+			path = "ObjectMapper-macOSTests.xctest";
 			remoteRef = 02DDFE711C6ECAE5008413ED /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -1092,7 +1093,7 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = GoogleMapsDirections/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GoogleMapsDirections-iOS";
 				PRODUCT_NAME = GoogleMapsDirections;
@@ -1113,7 +1114,7 @@
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = GoogleMapsDirections/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GoogleMapsDirections-iOS";
 				PRODUCT_NAME = GoogleMapsDirections;
@@ -1164,7 +1165,7 @@
 				PRODUCT_NAME = GoogleMapsDirections;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1188,7 +1189,7 @@
 				PRODUCT_NAME = GoogleMapsDirections;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1204,7 +1205,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GoogleMapsDirections-OSXTests";
 				PRODUCT_NAME = GoogleMapsDirectionsTests;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -1220,7 +1221,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GoogleMapsDirections-OSXTests";
 				PRODUCT_NAME = GoogleMapsDirectionsTests;
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -1240,7 +1241,7 @@
 				PRODUCT_NAME = GoogleMapsDirections;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1262,7 +1263,7 @@
 				PRODUCT_NAME = GoogleMapsDirections;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
@@ -1276,7 +1277,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GoogleMapsDirections-tvOSTests";
 				PRODUCT_NAME = GoogleMapsDirectionsTests;
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Debug;
@@ -1289,7 +1290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.honghaoz.GoogleMapsDirections-tvOSTests";
 				PRODUCT_NAME = GoogleMapsDirectionsTests;
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TVOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
@@ -1310,7 +1311,7 @@
 				PRODUCT_NAME = GoogleMapsDirections;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -1332,7 +1333,7 @@
 				PRODUCT_NAME = GoogleMapsDirections;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
