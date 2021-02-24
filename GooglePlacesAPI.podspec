@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.source_files     = "Source/Core/**/*.*", "Source/Google Places API/**/*.*"
   s.module_name      = "GooglePlacesAPI"
 
-  s.dependency 'Alamofire', '~> 5'
+  s.dependency 'Alamofire', '5.0.0-rc.3'
   s.dependency 'ObjectMapper', '~> 3'
 
 end
